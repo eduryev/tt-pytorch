@@ -7,6 +7,8 @@ import t3nsor as t3
 import sys
 sys.path.append("../")
 
+def pisi(x):
+  return 'kaka'
 
 def log1p_exp(input_tensor):
     """ Numerically stable function for computing log(1+exp(x)).
